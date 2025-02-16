@@ -80,7 +80,7 @@
             , <&gpio1 15 GPIO_ACTIVE_HIGH>  // column 8
             , <&gpio0 24 GPIO_ACTIVE_HIGH>  // column 7
             , <&gpio0  9 GPIO_ACTIVE_HIGH>  // column 6
-            ;            ;            
+            ;             
 
         row-gpios
             = <&gpio1  1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 0
@@ -91,9 +91,11 @@
     };
 };
     
+/*
 &seeeduino_xiao_ble {
     status = "okay";
 };
+*/
 
 / {
     matrix_transform0: matrix_transform0 {
