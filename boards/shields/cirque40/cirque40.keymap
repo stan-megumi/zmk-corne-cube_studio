@@ -191,11 +191,11 @@
         sym_layer {
             bindings = <
 //               ╭──────────────┬──────────────┬──────────────┬──────────────╮                                     ╭──────────────┬──────────────┬──────────────┬─────────────╮
-                       &none          &none        &kp SEMI       &kp DQT                                              &kp QMARK      &kp COMMA       &none         &BT_CLR
+                       &none          &none        &kp SEMI       &kp DQT                                              &kp QMARK      &kp COMMA       &none       &bt BT_CLR
 //╭──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤                                     ├──────────────┼──────────────┼──────────────┼──────────────┼────────────────╮
-     &soft_off         &none          &none        &kp COLON      &kp APOS                                              &kp DOT       &kp LPAR        &kp RPAR      &BT_SEL 0    &studio_unlock
+     &soft_off         &none          &none        &kp COLON      &kp APOS                                              &kp DOT       &kp LPAR        &kp RPAR    &bt BT_SEL 0    &studio_unlock
 //├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤                                     ├──────────────┼──────────────┼──────────────┼──────────────┼────────────────┤ 
-     &out OUT_TOG      &none          &kp LT       &kp GT         &kp BSLH                                               &kp R          &kp M          &kp D        &BT_SEL 1    &bootloader
+     &out OUT_TOG      &none          &kp LT       &kp GT         &kp BSLH                                               &kp R          &kp M          &kp D      &bt BT_SEL 1    &bootloader
 //╰──────────────┴──────────────┴──────────────┼──────────────┼──────────────┼─────────────────╮ ╭─────────────────┼──────────────┼──────────────┼──────────────┴──────────────┴────────────────╯ 
                                                    &kp LG(P)       &kp DEL          &trans              &trans          &trans        &trans
 //                                             ╰──────────────┴──────────────┴─────────────────╯ ╰─────────────────┴──────────────┴──────────────╯
