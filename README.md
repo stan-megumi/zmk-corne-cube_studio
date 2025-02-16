@@ -1,4 +1,4 @@
-# zmk-config-CirqueBoard
+# zmk-config-Cirque40
 ZMK with Cirque, Emgram (mostly) layout with mouse keys for clicks, no RGB
 
 note: I'm using keycodes like N1 instead of KP_N1 so I can get the shifted characters
