@@ -87,7 +87,7 @@
     };
 };
     
-&seeduino_xiao {
+&seeeduino_xiao_ble {
     status = "okay";
 };
 
