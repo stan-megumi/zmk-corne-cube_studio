@@ -32,7 +32,7 @@
 
 };
 
-&pro_micro_spi {
+&seeduino_xiao_spi {
     status = "okay";
     cs-gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
 
