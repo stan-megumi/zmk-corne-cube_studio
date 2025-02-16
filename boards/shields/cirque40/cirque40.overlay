@@ -7,8 +7,9 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 2400  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
+// for info on pinout documentation errors: https://discord.com/channels/719497620560543766/763848253996793856/1336569619808256053
 &pinctrl {
-    /* configuration for spi0 device, default state */
+    /* configuration for spi1 device, default state */
     spi1_default: spi1_default {
         /* node name is arbitrary */
         group1 {
@@ -19,7 +20,7 @@
         };
     };
 
-    /* configuration for spi0 device, sleep state */
+    /* configuration for spi1 device, sleep state */
     spi1_sleep: spi1_sleep {
         group1 {
             /* main role: configure P0.11 as SPI clock, P0.22 as SPI MOSI, P0.08 as SPI MISO */
@@ -32,7 +33,7 @@
 
 };
 
-&seeduino_xiao_spi {
+&xiao_spi {
     status = "okay";
     cs-gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
 
