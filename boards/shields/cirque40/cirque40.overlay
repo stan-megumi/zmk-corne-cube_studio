@@ -87,7 +87,7 @@
     };
 };
     
-&pro_micro {
+&seeduino_xiao {
     status = "okay";
 };
 
