@@ -1,0 +1,10 @@
+file_format: "1"
+id: cirque40
+name: Cirque 40
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  # - display
+  - studio
