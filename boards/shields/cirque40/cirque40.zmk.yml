@@ -3,7 +3,7 @@ id: cirque40
 name: cirque40
 type: shield
 url: https://github.com/foostan/crkbd/
-requires: [seeeduino_xiao_ble]
+requires: [pro_micro]
 features:
   - keys
   # - display
