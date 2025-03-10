@@ -25,7 +25,7 @@ include:
     shield: corne_pad_right
    # snippet: zmk-usb-logging
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    #cmake-args: -DCONFIG_ZMK_STUDIO=y
     #  - board: seeeduino_xiao_ble
     #    shield: void16
   - board: nice_nano_v2
