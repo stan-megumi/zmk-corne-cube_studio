@@ -20,13 +20,10 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_pad_left
-  - board: nice_nano_v2
-    shield: corne_pad_right
-   # snippet: zmk-usb-logging
+    shield: cornepad_right
     snippet: studio-rpc-usb-uart
+  - board: nice_nano_v2
+    shield: cornepad_left
     #cmake-args: -DCONFIG_ZMK_STUDIO=y
-    #  - board: seeeduino_xiao_ble
-    #    shield: void16
   - board: nice_nano_v2
     shield: settings_reset

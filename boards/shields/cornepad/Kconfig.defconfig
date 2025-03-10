@@ -1,7 +1,7 @@
-if SHIELD_CORNE_PAD_RIGHT
+if SHIELD_CORNEPAD_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "corne_pad"
+    default "cornepad"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -15,7 +15,7 @@ config SPI
 
 endif
 
-if SHIELD_CORNE_PAD_LEFT || SHIELD_CORNE_PAD_RIGHT
+if SHIELD_CORNEPAD_LEFT || SHIELD_CORNEPAD_RIGHT
 
 config ZMK_SPLIT
     default y
