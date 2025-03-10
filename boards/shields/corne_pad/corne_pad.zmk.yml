@@ -1,0 +1,14 @@
+file_format: "1"
+id: corne_pad
+name: corne_pad
+type: shield
+url: https://github.com/felixm12138/corne_pad
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - corne_pad_left
+  - corne_pad_right
