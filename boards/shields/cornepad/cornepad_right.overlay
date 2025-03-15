@@ -73,11 +73,17 @@
         status = "okay";
         dr-gpios = <&gpio1 04 (GPIO_ACTIVE_HIGH)>;
 
-        sensitivity = "1x";
+        sensitivity = "2x";
         //invert-x;
         sleep;
         // no-taps;
     };
 };
 
+/ {
+    glidepoint_listener {
+        compatible = "zmk,input-listener";
+        device = <&glidepoint>;
+    };
+};
 
