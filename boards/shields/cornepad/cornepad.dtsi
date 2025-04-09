@@ -27,6 +27,7 @@
     chosen {
         zephyr,display = &oled;
         zmk,kscan = &kscan0;
+        zmk,underglow = &led_strip;
         zmk,physical-layout = &foostan_corne_6col_layout;
     };
 
