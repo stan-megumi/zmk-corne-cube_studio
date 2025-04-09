@@ -14,8 +14,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 2400  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 10    // default: 10
 
 
 
@@ -88,7 +88,7 @@
         device = <&glidepoint>;
         input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP |INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-        <&zip_xy_scaler 2 1>;
+        <&zip_xy_scaler 4 1>;
     };
 };
 
