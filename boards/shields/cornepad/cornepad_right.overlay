@@ -40,7 +40,7 @@
     reg = <0>; /* ignored, but necessary for SPI bindings */
     spi-max-frequency = <4000000>;
     /* WS2812 */
-    chain-length = <36>; /* number of LEDs */
+    chain-length = <21>; /* number of LEDs */
     spi-one-frame = <0x70>;
     spi-zero-frame = <0x40>;
     color-mapping = <LED_COLOR_ID_GREEN
@@ -136,7 +136,7 @@
         device = <&glidepoint>;
         input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP |INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-        <&zip_xy_scaler 4 1>;
+        <&zip_xy_scaler 3 1>;
     };
 };
 
