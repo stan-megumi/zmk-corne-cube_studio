@@ -1,8 +1,8 @@
 file_format: "1"
-id: cornepad
-name: cornepad
+id: corne
+name: corne
 type: shield
-url: https://github.com/felixm12138/cornepad
+url: https://github.com/felixm12138/corne
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
@@ -10,5 +10,5 @@ features:
   - display
   - studio
 siblings:
-  - cornepad_left
-  - cornepad_right
+  - corne_left
+  - corne_right
