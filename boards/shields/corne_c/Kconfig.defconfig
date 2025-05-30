@@ -1,7 +1,7 @@
-if SHIELD_CORNE_LEFT
+if SHIELD_CORNE_C_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "corne"
+    default "corne_c"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -10,7 +10,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT
+if SHIELD_CORNE_C_LEFT || SHIELD_CORNE_C_RIGHT
 
 config ZMK_SPLIT
     default y

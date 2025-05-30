@@ -1,6 +1,6 @@
 file_format: "1"
-id: corne
-name: corne
+id: corne_c
+name: corne_c
 type: shield
 url: https://github.com/felixm12138/corne
 requires: [pro_micro]
@@ -10,5 +10,5 @@ features:
   - display
   - studio
 siblings:
-  - corne_left
-  - corne_right
+  - corne_c_left
+  - corne_c_right
