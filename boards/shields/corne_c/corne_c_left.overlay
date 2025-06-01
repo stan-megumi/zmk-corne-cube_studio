@@ -6,13 +6,6 @@
 
 #include "corne_c.dtsi"
 
-&default_transform {
-    col-offset = <6>;
-};
-
-&five_column_transform {
-    col-offset = <5>;
-};
 
 &kscan0 {
     col-gpios
