@@ -14,72 +14,7 @@
 #define SHORTCUTS   3
 
 / {
-    behaviors {
-        ht: ht {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "tap-preferred";
-            quick-tap-ms = <150>;
-        };
-
-        td0: td0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD0";
-            #binding-cells = <0>;
-            bindings = <&ht ESCAPE BACKSLASH>, <&kp TAB>;
-        };
-
-        td3: td3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD3";
-            #binding-cells = <0>;
-            bindings = <&mo 1>, <&mo 3>;
-        };
-
-        ht_layer: ht_layer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT_LAYER";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            flavor = "tap-preferred";
-        };
-    };
-
-    combos {
-        compatible = "zmk,combos";
-
-        combo1 {
-            bindings = <&kp UP>;
-            key-positions = <8 9>;
-        };
-
-        combo2 {
-            bindings = <&kp DOWN>;
-            key-positions = <20 21>;
-        };
-
-        combo3 {
-            bindings = <&caps_word>;
-            key-positions = <13 14>;
-        };
-
-        combo4 {
-            bindings = <&kp LEFT>;
-            key-positions = <7 8>;
-        };
-
-        combo5 {
-            bindings = <&kp RIGHT>;
-            key-positions = <9 10>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -97,10 +32,10 @@
         layer1 {
             label = "1";
             bindings = <
-&kp BACKSLASH  &kp N1  &kp N2  &kp N3        &kp N4        &kp N5             &kp N6   &kp N7         &kp N8         &kp N9            &kp N0             &kp BSPC
-&kp LSHFT      &kp A   &none   &none         &none         &none              &none    &none          &none          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
-&kp LCTRL      &none   &none   &none         &none         &none              &none    &none          &kp COMMA      &kp PERIOD        &kp MINUS          &kp EQUAL
-                               &kp LEFT_ALT  &kp LEFT_GUI  &ht LSHFT SPACE    &kp RET  &kp RIGHT_ALT  &kp RIGHT_GUI
+&kp BACKSLASH  &kp N1  &kp N2  &kp N3        &kp N4        &kp N5       &kp N6   &kp N7         &kp N8         &kp N9            &kp N0             &kp BSPC
+&kp LSHFT      &kp A   &none   &none         &none         &none        &none    &none          &none          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
+&kp LCTRL      &none   &none   &none         &none         &none        &none    &none          &kp COMMA      &kp PERIOD        &kp MINUS          &kp EQUAL
+                               &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE    &kp RET  &kp RIGHT_ALT  &kp RIGHT_GUI
             >;
         };
 
