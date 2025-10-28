@@ -21,7 +21,7 @@
         macro0: macro0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(I) &kp L &kp L &kp N2 &kp N3 &kp N4 &kp EXCL &kp AT &kp POUND &kp DLLR &kp STAR &kp AMPS &kp SPACE>;
+            bindings = <&kp LS(I) &kp L &kp L &kp N2 &kp N3 &kp N4 &kp EXCL &kp AT &kp POUND &kp DLLR &kp STAR &kp AMPS>;
             label = "MACRO0";
         };
 
