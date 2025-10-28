@@ -1,50 +1,50 @@
 layout: {zmk_keyboard: corne_c}
 layers:
   '0':
-  - ESCAPE
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BACKSPACE
-  - LSHFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
+  - TAB
   - ''''
-  - LCTRL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
   - ','
   - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
   - /
-  - DELETE
+  - LEFT CONTROL
+  - A
+  - O
+  - E
+  - U
+  - I
+  - D
+  - H
+  - T
+  - N
+  - S
+  - '-'
+  - LEFT SHIFT
+  - ;
+  - Q
+  - J
+  - K
+  - X
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - '='
   - LEFT ALT
-  - {t: LEFT GUI, h: '3'}
-  - {t: SPACE, h: '1'}
   - ENTER
-  - '2'
-  - RIGHT WIN
+  - {t: (, h: '1'}
+  - {t: ), h: '2'}
+  - SPACE
+  - LEFT WIN
   '1':
-  - \
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -56,38 +56,7 @@ layers:
   - '9'
   - '0'
   - BSPC
-  - LSHFT
-  - A
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '['
-  - ']'
-  - '|'
-  - LCTRL
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ','
-  - .
-  - '-'
-  - '='
-  - LEFT ALT
-  - LEFT GUI
-  - {t: SPACE, type: held}
-  - RET
-  - RIGHT ALT
-  - RIGHT GUI
-  '2':
-  - TAB
+  - '`'
   - '!'
   - '@'
   - '#'
@@ -96,79 +65,67 @@ layers:
   - ^
   - '&'
   - '*'
-  - (
-  - )
-  - BSPC
-  - LCTRL
+  - VOLUME UP
+  - UP ARROW
+  - VOLUME DOWN
+  - '~'
+  - AL FILE BROWSER
+  - AL WWW
+  - COPY
+  - PASTE
+  - PRINTSCREEN
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - '-'
-  - '='
+  - {type: held}
+  - MUTE
   - '['
   - ']'
+  '2':
+  - TAB
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - '&mkp MCLK'
+  - DELETE
   - \
-  - '`'
-  - LSHFT
+  - '&macro0'
+  - '&macro1'
+  - '&macro2'
+  - '&macro3'
+  - '&macro4'
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - _
-  - +
-  - '{'
-  - '}'
+  - '&msc SCRL_UP'
+  - '&mkp LCLK'
+  - '&mmv MOVE_UP'
+  - '&mkp RCLK'
   - '|'
-  - '~'
-  - LEFT GUI
-  - LSHFT
-  - SPACE
-  - ENTER
-  - {t: RIGHT COMMAND, type: held}
-  - RIGHT GUI
-  '3':
-  - '&sys_reset'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - KP 7
-  - KP 8
-  - KP 9
-  - ''
-  - ''
-  - ''
-  - LSHFT
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - KP 4
-  - KP 5
-  - KP 6
-  - ''
-  - UP
-  - ''
-  - LCTRL
   - BT CLR
-  - ''
-  - ''
-  - ''
   - BT CLR ALL
-  - KP 1
-  - KP 2
-  - KP 3
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT ALT
-  - {t: LEFT GUI, type: held}
-  - SPACE
-  - '0'
-  - '0'
-  - KP DOT
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '{'
+  - '}'
+  - ''
+  - {type: held}
+  - '&bootloader'
+  - ''
