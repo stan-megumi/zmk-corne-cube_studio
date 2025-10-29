@@ -14,6 +14,8 @@
 #define NAVIGATION  2
 #define SHORTCUTS   3
 
+&lt { flavor = "balanced"; };
+
 / {
     combos { compatible = "zmk,combos"; };
 
